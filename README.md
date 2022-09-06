@@ -68,3 +68,13 @@ git remote -v
 ```
 
 ### Create a Pull Request
+
+Navigate back to the original repo (not your forked copy). Under the `Pull Requests` tab, click `New pull request`. Alternatively, a `Compare & pull request` option may also show with your newly created branch, which you can also select.
+
+![img](./.github/new-pr.png)
+
+Ensure that your branch is selected in the dropdown displayed below. You can scroll down to view a 'diff' between your changes and the existing code.
+
+After adding a title and description, click `Create pull request`.
+
+![img](./.github/create-pr.png)
