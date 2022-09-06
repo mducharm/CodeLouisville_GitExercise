@@ -1,2 +1,0 @@
-# Code Louisville Git Exercise
-
