@@ -5,6 +5,7 @@ Console.WriteLine("Hello! I'm Isaac");
 Console.WriteLine("Hello! I'm Justin");
 Console.WriteLine("Hello! I'm Scott");
 
+Console.WriteLine("Hello! I'm Terence");
 
 
 
