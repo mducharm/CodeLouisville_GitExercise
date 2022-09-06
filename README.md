@@ -8,6 +8,7 @@ Git is an essential part of a software developer's toolkit. This exercise will i
 1. [Clone](#clone-the-repository)
 1. [Branch](#create-a-branch)
 1. [Make a commit](#make-a-commit)
+1. [Create a pull request](#create-a-pull-request)
 
 ### Fork the repository
 
@@ -46,13 +47,14 @@ Console.WriteLine("Hello! I'm ___");
 ```powershell
 # stage the changes 
 git add Program.cs 
-# `git add *` to add all changes
+
+# alternatively, `git add *` to add changes for all files
 
 # commit the changes
 git commit -m "added my greeting"
 
-# push your new commit to GitHub
-git push origin main
+# push your new commit to GitHub: git push {remote} {branch}
+git push origin main 
 ```
 
 Note: when cloning a forked repo, it should automatically set the `origin` remote to be the URL of your forked repo. If for some reason this doesn't happen, you can add and view the current remotes for your cloned repo like so:
@@ -64,3 +66,5 @@ git remote add origin https://github.com/{your_username}/CodeLouisville_GitExerc
 # view existing remotes
 git remote -v
 ```
+
+### Create a Pull Request
