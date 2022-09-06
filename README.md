@@ -30,11 +30,13 @@ git clone https://github.com/mducharm/CodeLouisville_GitExercise.git
 
 ### Create a branch
 
-We create *branches* to group related changes.
+We create *branches* to group related changes. Run the command below to create a new branch called `add-greeting` and immediately switch to it.
 
 ```powershell
 git checkout -b add-greeting
 ```
+
+To view other commands for managing branches, run `git branch -h`.
 
 ### Make a commit
 
@@ -48,7 +50,8 @@ Console.WriteLine("Hello! I'm ___");
 # stage the changes 
 git add Program.cs 
 
-# alternatively, `git add *` to add changes for all files
+# alternatively, use `*` to add changes for all files
+# git add *
 
 # commit the changes
 git commit -m "added my greeting"
@@ -78,3 +81,5 @@ Ensure that your branch is selected in the dropdown displayed below. You can scr
 After adding a title and description, click `Create pull request`.
 
 ![img](./.github/create-pr.png)
+
+After creating a pull request, the owner of the repo and/or other reviewers can approve your pull request, after which it can be successfully merged into the codebase.
