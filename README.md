@@ -48,7 +48,7 @@ Console.WriteLine("Hello! I'm ___");
 
 ```powershell
 # stage the changes 
-git add Program.cs 
+git add CodeLouisville_GitExercise/Program.cs 
 
 # alternatively, use `*` to add changes for all files
 # git add *
