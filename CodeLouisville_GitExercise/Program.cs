@@ -10,7 +10,7 @@ Console.WriteLine("Hello! I'm Terence");
 Console.WriteLine("Hello! I'm Blake");
 Console.WriteLine("Hello! I'm Joseph");
 Console.WriteLine("Hello! I'm Grace");
-
+System.Console.WriteLine("Hello I'm Scott #2...testing good morning branch");
 
 
 
